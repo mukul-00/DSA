@@ -50,3 +50,5 @@ while (mid <= high):
         nums[mid], nums[high] = nums[high], nums[mid]
         high -= 1
 print(nums)
+
+#https://youtu.be/tp8JIuCXBaU?si=iqXyFgTjQy_JVtHF
