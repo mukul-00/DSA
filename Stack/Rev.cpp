@@ -6,16 +6,15 @@ int main(){
 
     stack<char> st;
 
+    // create a stack (put all the element of str in st)
     for(int i = 0; i < str.length(); i++){
-        char ch = str[i];
-        st.push(ch);
+        st.push(str[i]);
     }
 
     string ans = "";
 
     while(!st.empty()){
-        char ch = st.top();
-        ans.push_back(ch);
+        ans.push_back(st.top());
         st.pop();
     }
 
